@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    background-color: #F0E4D7;
+
+}
+
+.main-navbar {
+    background-color: #F0E4D7;
+    width: 1430px;
+    height: 63.63px;
+    display: flex;
+    max-width: 100%;
+    margin: 0%;
+    align-content: center;
+    justify-content: center;
+    column-gap: 500px;
+    position: fixed;
+}
+
+.hamburger {
+    background-color: #F0E4D7;
+    padding: 12px;
+    width: 46;
+    height: 64;
+}
+
+.hamburger img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    margin-left: -80px;
+    margin-top: 0px;
+}
+
+.hamburger hr {
+    width: 20px;
+    height: 0.5px;
+    color: #000000;
+}
+
+.pleasing {
+    width: 114px;
+    height: 64px;
+    margin-top: -15px;
+    margin-right: -100px;
+}
+
+
+.menu {
+    width: 255px;
+    height: 64px;
+    margin-right: -100px;
+    margin-top: -3px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    padding: 5px;
+    margin-right: 200px;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff8686;
+    }
+
+    25% {
+        color: rgb(232, 191, 114);
+    }
+
+    50% {
+        color: rgb(122, 122, 42);
+    }
+
+    75% {
+        color: rgba(55, 130, 55, 0.864);
+    }
+
+    100% {
+        color: rgb(70, 70, 173);
+    }
+}
+
+.pleasing {
+    font-size: larger;
+    animation: colorChange 15s infinite;
+}
+
+.main-grid {
+    display: grid;
+    grid: 50px/auto auto;
+}
+
+.prod-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.prod-content hr {
+    background-color: #000000;
+    width: 560px;
+    margin-left: 0%;
+    height: 1px;
+    border: 0;
+}
+
+.prod-content h3 {
+    font-weight: 650;
+    font-size: 17px;
+}
+
+.prod-content h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.prod-content button {
+    background-color: #000000;
+    color: #F0E4D7;
+    width: 550px;
+    height: 45px;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: #F0E4D7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+    display: flex;
+    margin-top: 600px;
+}
+
+.form1 {
+    width: 400px;
+    height: 320px;
+}
+
+.form1 ul {
+    list-style: none;
+}
+
+.extra {
+    background-color: #000000;
+    color: #F0E4D7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.extra ul {
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+}
+
+.form2 {
+    width: 1000px;
+    height: 350px;
+
+}
+
+.form3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form3 hr {
+    width: 450px;
+    justify-content: left;
+}
+
+.form3 button {
+    width: 450px;
+}
+
+.form3 input {
+    background-color: #000000;
+    height: 30px;
+    font-size: medium;
+    color: #F0E4D7;
+    border: #F0E4D7;
+}
+
+.form2 button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0px;
+    border: none;
+    background: #F0E4D7;
+    box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+    color: #585858;
+}
+
+.form2 button:active {
+    box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+}
